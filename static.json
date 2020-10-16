@@ -1,7 +1,8 @@
 {
   "headers":{
     "*/":{
-      "X-Author":"kirill_chek"
+      "X-Author":"kirill_chek",
+      "Access-Control-Allow-Origin":"*"
     }
   }
 }
