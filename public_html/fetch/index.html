@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fetch</title>
+</head>
+<body>
+  <input type="text" id="inp" placeholder="This place resorved for URL and answer">
+  <button id="bt">Отправить</button>
+  <script>
+  	let but = document.querySelector('#bt');
+    let inp = document.querySelector('#inp');
+    but.addEventListener('click', async () => {
+        let promise = await fetch(inp.value);
+    	promise.then((x) => inp.value = x)
+        		.catch((x) => console.log('faild'));
+    });
+  </script>
+</body>
+</html>
