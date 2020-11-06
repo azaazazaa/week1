@@ -11,9 +11,9 @@
   <script>
   	let but = document.querySelector('#bt');
     let inp = document.querySelector('#inp');
-    but.addEventListener('click', async () => {
+    but.addEventListener('click', () => {
         let promise = fetch(inp.value);
-    	await promise.then((x) => inp.value = x)
+    	  promise.then((x) => inp.value = x)
         		.catch((x) => console.log('failed'));
     });
   </script>
