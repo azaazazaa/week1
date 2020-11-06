@@ -13,7 +13,7 @@
     let inp = document.querySelector('#inp');
     but.addEventListener('click', async () => {
         let promise = await fetch(inp.value);
-    	promise.then((x) => inp.value = x)
+    	promise.then((x) => inp.value = x.text())
         		.catch((x) => console.log('faild'));
     });
   </script>
