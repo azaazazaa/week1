@@ -9,12 +9,12 @@
   <input type="text" id="inp" placeholder="This place resorved for URL and answer">
   <button id="bt">Отправить</button>
   <script>
-  	let but = document.querySelector('#bt');
-    let inp = document.querySelector('#inp');
-    but.addEventListener('click', () => {
-        let promise = fetch(inp.value);
-    	  promise.then((x) => inp.value = x.text())
-        		.catch((x) => console.log('failed'));
+  	const bt = document.querySelector('#bt');
+    const inp = document.querySelector('#inp');
+    bt.addEventListener('click', () => {
+        fetch(inp.value)
+    	.then((x) => x.text())
+    	.then((x) => inp.value = x);
     });
   </script>
 </body>
