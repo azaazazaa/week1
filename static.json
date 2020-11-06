@@ -4,7 +4,7 @@
       "X-Author":"kirill_chek",
       "Access-Control-Allow-Origin":"*"
     },
-    "login/":{
+    "/login/":{
       "X-Author":"kirill_chek",
       "Access-Control-Allow-Origin":"*"
     }
