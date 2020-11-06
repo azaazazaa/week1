@@ -4,8 +4,13 @@
       "X-Author":"kirill_chek",
       "Access-Control-Allow-Origin":"*"
     }
-    "/login/":{
-      "X-Author":"kirill_chek123",
+  }
+}
+
+{
+  "headers":{
+    "login/":{
+      "X-Author":"kirill_chek",
       "Access-Control-Allow-Origin":"*"
     }
   }
