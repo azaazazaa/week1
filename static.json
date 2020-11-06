@@ -3,12 +3,7 @@
     "*/":{
       "X-Author":"kirill_chek",
       "Access-Control-Allow-Origin":"*"
-    }
-  }
-}
-
-{
-  "headers":{
+    },
     "login/":{
       "X-Author":"kirill_chek",
       "Access-Control-Allow-Origin":"*"
