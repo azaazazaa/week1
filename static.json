@@ -3,8 +3,8 @@
     "*/":{
       "X-Author":"kirill_chek",
       "Access-Control-Allow-Origin":"*"
-    };
-    "login/":{
+    }
+    "/login/":{
       "X-Author":"kirill_chek123",
       "Access-Control-Allow-Origin":"*"
     }
